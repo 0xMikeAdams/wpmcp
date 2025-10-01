@@ -186,10 +186,6 @@ The plugin creates two custom tables:
 
 Enable debug mode in plugin settings to get detailed logging information. Check WordPress debug logs for detailed error messages.
 
-## Support
-
-For support, please check the plugin documentation or contact the development team.
-
 ## License
 
 This plugin is licensed under the GPL v2 or later.
