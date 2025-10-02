@@ -5,8 +5,8 @@
  * Description: Exposes WordPress content through the Model Context Protocol (MCP) for AI assistants and compatible tools.
  * Version: 1.0.0
  * Author: 0xMikeAdams
- * License: GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * License: GPLv3
+ * License URI: http://www.gnu.org/licenses/gpl.html
  * Text Domain: wpmcp
  * Requires at least: 5.0
  * Tested up to: 6.4
