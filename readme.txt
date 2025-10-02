@@ -48,6 +48,7 @@ WPMCP is a WordPress plugin that exposes your WordPress content through the Mode
 3. Use the Settings > WPMCP screen to configure the plugin.
 4. Generate API keys for your MCP clients.
 5. Configure which post types should be accessible through the API.
+6. Test the installation by visiting: `https://yoursite.com/wp-json/wpmcp/v1/test`
 
 == Frequently Asked Questions ==
 
@@ -110,8 +111,10 @@ Absolutely. The plugin includes:
 This usually means:
 1. The plugin isn't activated
 2. You need to flush permalinks (Settings > Permalinks > Save)
-3. You're making a GET request instead of POST
+3. You're making a GET request instead of POST to the MCP endpoint
 4. The API key is missing or invalid
+
+You can test if the plugin is working by visiting: `https://yoursite.com/wp-json/wpmcp/v1/test`
 
 = Can I use this with custom post types? =
 
@@ -188,4 +191,3 @@ No personal content is logged. All logging can be disabled in plugin settings.
 **Documentation:** Complete API documentation available
 **Hooks and Filters:** Developer hooks available for customization
 **Coding Standards:** Follows WordPress coding standards
-**Testing:** Comprehensive test suite included

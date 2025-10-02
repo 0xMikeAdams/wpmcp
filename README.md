@@ -106,22 +106,24 @@ Search across WordPress content with relevance scoring.
 - `offset` (int): Offset for pagination (default: 0)
 - `filters` (object): Additional filters
 
-## Example MCP Client Configuration
+## Example Usage
 
-```json
-{
-  "mcpServers": {
-    "wordpress": {
-      "command": "curl",
-      "args": [
-        "-X", "POST",
-        "-H", "Content-Type: application/json",
-        "-H", "X-API-Key: your-api-key-here",
-        "https://yoursite.com/wp-json/wpmcp/v1/mcp"
-      ]
-    }
-  }
-}
+### Testing the Plugin
+
+You can test if the plugin is working by visiting:
+```
+https://yoursite.com/wp-json/wpmcp/v1/test
+```
+
+### MCP Client Configuration
+
+Configure your MCP client to use the endpoint:
+```
+Endpoint: https://yoursite.com/wp-json/wpmcp/v1/mcp
+Method: POST
+Headers: 
+  - Content-Type: application/json
+  - X-API-Key: your-generated-api-key
 ```
 
 ## Example Request
@@ -152,19 +154,15 @@ Search across WordPress content with relevance scoring.
 
 ## Development
 
-### Running Tests
+### Setup
 
 ```bash
 composer install
-composer test
 ```
 
 ### Code Standards
 
-```bash
-composer phpcs  # Check coding standards
-composer phpcbf # Fix coding standards
-```
+This plugin follows WordPress coding standards. You can use any PHP code formatter or the WordPress built-in coding standards for development.
 
 ### Database Tables
 
@@ -188,7 +186,7 @@ Enable debug mode in plugin settings to get detailed logging information. Check 
 
 ## License
 
-This plugin is licensed under the GPL v2 or later.
+This plugin is licensed under GPLv3
 
 ## Changelog
 
