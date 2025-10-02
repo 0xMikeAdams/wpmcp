@@ -1,3 +1,9 @@
+<p align="center">
+  <picture>
+    <img alt="WPMCP Header" src="assets/wpmcp-header.png" width="100%">
+  </picture>
+</p>
+
 # WPMCP - WordPress Model Context Protocol Plugin
 
 A WordPress plugin that exposes WordPress content through the Model Context Protocol (MCP), enabling AI assistants and other MCP-compatible tools to access and interact with WordPress posts, pages, and custom post types in a structured, secure manner.
