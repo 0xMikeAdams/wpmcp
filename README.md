@@ -166,10 +166,6 @@ Headers:
 composer install
 ```
 
-### Code Standards
-
-This plugin follows WordPress coding standards. You can use any PHP code formatter or the WordPress built-in coding standards for development.
-
 ### Database Tables
 
 The plugin creates two custom tables:

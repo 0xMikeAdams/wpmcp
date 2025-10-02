@@ -184,10 +184,3 @@ This plugin logs API requests for security and monitoring purposes. Logged data 
 * Response codes and timing
 
 No personal content is logged. All logging can be disabled in plugin settings.
-
-== Developer Information ==
-
-**GitHub Repository:** Available for contributions and issue reporting
-**Documentation:** Complete API documentation available
-**Hooks and Filters:** Developer hooks available for customization
-**Coding Standards:** Follows WordPress coding standards
